@@ -13,7 +13,7 @@ function Ejercicio02() {
   const [estadoApagador, setEstadoApagador] = useState(true);
 
   const switchear = () => {
-    const feedbackEstadoAceptacion = estadoApagador ? "Apagado: No aceptado":"Prendido: Aceptado"
+    const feedbackEstadoAceptacion = estadoApagador ? "Apagado: No aceptado.":"Prendido: Aceptado."
     setEstadoApagador(!estadoApagador)
     
     console.log(`El estado del apagador está ${feedbackEstadoAceptacion}`);
